@@ -33,7 +33,7 @@ html,body{
   top: 0px;
   left: 0px;
 }
-#fourth {
+#contact {
   background: url("../res/20190401_192752-EFFECTS.jpg") center;
   background-color: lightgray;
   background-size: cover;
@@ -67,4 +67,3 @@ li {
 li:hover{
   color: pink;
 }
-
