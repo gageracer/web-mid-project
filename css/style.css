@@ -4,7 +4,7 @@ body {
 html,body{
   scroll-behavior: smooth;
 }
-#first {
+#home {
   background: url("../res/hot-air-ballons-828967_1920.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
