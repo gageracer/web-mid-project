@@ -131,25 +131,25 @@ h1{
 
 #box3{
   /* position: relative; */
-
+ display: flex;
 }
 
 .gmap {
-padding-top: 5px;
-margin: 300px;
-height: 20%;
+/* padding-top: 5px; */
+/* margin: 10px; */
+/* height: 20%; */
 overflow: hidden;
 float: left;
 }
 
 iframe {
-margin-left: 40px;
 width: 400px;
 height: 400px;
 }
 
-a{
-  color: wheat;
+p{
+  /* text-align: left; */
+  float: left;
 }
 
 /* contact css */
