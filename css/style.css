@@ -129,17 +129,23 @@ h1{
   color: aliceblue;
 }
 
-.ggmap {
-position: relative;
+#box3{
+  /* position: relative; */
+
+}
+
+.gmap {
 padding-top: 5px;
 margin: 300px;
 height: 20%;
 overflow: hidden;
+float: left;
 }
 
 iframe {
-width: 500px;
-height: 200px;
+margin-left: 40px;
+width: 400px;
+height: 400px;
 }
 
 a{
