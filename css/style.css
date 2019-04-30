@@ -140,6 +140,7 @@ h1{
 /* height: 20%; */
 overflow: hidden;
 float: left;
+border-right: 2px solid white;
 }
 
 iframe {
