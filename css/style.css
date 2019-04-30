@@ -1,6 +1,9 @@
 body {
   margin: 0px;
 }
+*{
+  border: 1px solid red;
+}
 html,body{
   scroll-behavior: smooth;
 }
@@ -13,9 +16,9 @@ html,body{
   top: 0px;
   left: 0px;
 }
-#second {
-  background: url("../res/ancient-1226277_1920.jpg") center;
-  background-color: lightgray;
+
+#faculty {
+  background: url("../res/ballet3.jpg") center;
   background-size: cover;
   width: 100%;
   height: 1200px;
@@ -23,6 +26,38 @@ html,body{
   top: 0px;
   left: 0px;
 }
+/* #pad1{
+  display: flex;
+  justify-content: space-between;
+} */
+
+#pad1,#pad2{
+  margin-right: 20%;
+}
+#pad3{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#image{
+  width: 100%;
+  height: auto;
+}
+
+.head{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  position: relative;
+}
+
+.text{
+  text-align: center;
+  font-size: 15px;
+  color: aqua;
+  font-family: 'Indie Flower', cursive;
+}
+
 #third {
   background: url("../res/venue-2986721_1920.jpg") center;
   background-color: lightgray;
