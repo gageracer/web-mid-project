@@ -4,7 +4,7 @@ body {
 html,body{
   scroll-behavior: smooth;
 }
-#first {
+#home {
   background: url("../res/hot-air-ballons-828967_1920.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
@@ -24,7 +24,7 @@ html,body{
   left: 0px;
 }
 #third {
-  background: url("../res/venue-2986721_1920.jpg");
+  background: url("../res/venue-2986721_1920.jpg") center;
   background-color: lightgray;
   background-size: cover;
   width: 100%;
@@ -51,7 +51,7 @@ html,body{
   background-color: lightgray;
   background-size: cover;
   width: 100%;
-  height: 720px;
+  height: 1200px;
   position: relative;
   top: 0px;
   left: 0px;
