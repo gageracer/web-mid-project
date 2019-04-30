@@ -33,8 +33,21 @@ html,body{
   top: 0px;
   left: 0px;
 }
+/* contact css */
+.bg01{
+  background-image: url("../res/ballet-dancer.jpg");
+}
+
+.fixed-bg{
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+}
+
 #contact {
-  background: url("../res/20190401_192752-EFFECTS.jpg") center;
+/* background: url() center; */
   background-color: lightgray;
   background-size: cover;
   width: 100%;
@@ -43,6 +56,101 @@ html,body{
   top: 0px;
   left: 0px;
 }
+
+
+.text-center{
+  text-align: center;
+  color: rgba(255,255,255,1);
+
+}
+
+
+fieldset {
+  border: 2px solid black;
+  padding: 1rem;
+  margin-left: 330px;
+  margin-right: 330px;
+  background-color: rgba(100,30,180,0.7);
+}
+
+legend {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  color:rgba(255,255,255,1);
+}
+label {
+  text-transform: uppercase;
+}
+
+textarea, input {
+  border: 1px solid black;
+  outline: none;
+}
+
+
+textarea:focus, input[type="name"]:focus, input[type="email"]:focus, input[type="subject"]:focus {
+  border: 1px solid #000;
+  background-color: white;
+}
+textarea {
+  vertical-align: top;
+}
+
+.form-flex {
+  display: flex;
+}
+.form .form-flex {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+.form-label {
+  width: 7em;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: .5em;
+}
+
+.form-buttoms{
+  position: fixed;
+}
+
+.scroll-bg{
+  background-color:  rgba(100,30,180,0.7);
+}
+
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+
+.ggmap {
+position: relative;
+padding-top: 5px;
+margin: 300px;
+height: 20%;
+overflow: hidden;
+}
+
+iframe {
+width: 500px;
+height: 200px;
+}
+
+a{
+  color: wheat;
+}
+
+/* contact css */
+
+
+
+
 .menu {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 300px;
