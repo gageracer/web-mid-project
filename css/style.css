@@ -18,7 +18,7 @@ html,body{
 }
 
 #faculty {
-  /* background: url("../res/ballet3.jpg") center; */
+  background: url("../res/ballet3.jpg") center;
   background-size: cover;
   background-color: rgba(241, 158, 241, 0.486);
   width: 100%;
