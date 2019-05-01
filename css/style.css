@@ -10,15 +10,14 @@ html,body{
 } */
 
 #home {
-  background: url("../res/home.jpg") no-repeat center center;
-
+  background: url("../res/home.png") no-repeat center center;
   background-color: white;
   background-size: cover;
-  width: 100%;
-  height: 800px;
+  width: 30%;
+  height: 1200px;
   position: relative;
   top: 0px;
-  left: 0px;
+  left: 40%;
 }
 
 /* .home{
