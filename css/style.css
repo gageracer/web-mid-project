@@ -10,24 +10,24 @@ html,body{
 } */
 
 #home {
-  background: url("../res/home.png") no-repeat center center;
+  /* background: url("../res/home.png") no-repeat center center; */
   background-color: white;
   background-size: cover;
   width: 30%;
   height: 1200px;
   position: relative;
   top: 0px;
-  left: 40%;
+  left: 37%;
 }
 
-/* .home{
-  width:100%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+.home{
+  width:90%;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
   position: relative;
   top:0;
   bottom:0
-} */
+}
 
 /* .home2 {
   position: absolute;
