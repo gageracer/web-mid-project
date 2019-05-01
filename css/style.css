@@ -5,9 +5,9 @@ html,body{
   scroll-behavior: smooth;
 }
 
-header {
+/* header {
   position: fixed;
-}
+} */
 
 #home {
   background: url("../res/home.jpg") no-repeat center center;
@@ -30,11 +30,11 @@ header {
   bottom:0
 } */
 
-.home2 {
+/* .home2 {
   position: absolute;
   top:0;
   bottom:0
-}
+} */
 
 #second {
   background: url("../res/ancient-1226277_1920.jpg") center;
