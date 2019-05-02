@@ -42,7 +42,7 @@ html,body{
 
 
 #faculty {
-  /* background: url("../res/ballet3.jpg") center; */
+  background: url("../res/ballet3.jpg") center;
   background-size: cover;
   background-color: rgba(241, 158, 241, 0.486);
   width: 100%;
@@ -357,9 +357,7 @@ li {
   text-decoration: none;
   color: rgb(209, 142, 42);
 }
-li {
-  /* margin-right: 20px; */
-}
+
 li:hover{
   color: pink;
 }
