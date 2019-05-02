@@ -1,0 +1,11 @@
+#training{
+    display: flex;
+    justify-content: flex-start;
+}
+.main_t{
+    width: 75%;
+}
+#title_t{
+    text-align: center;
+    position: relative;
+}
