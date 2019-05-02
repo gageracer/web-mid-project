@@ -224,6 +224,10 @@ html,body{
   left: 0px;
 }
 
+.contact-title {
+  text-align: center;
+  color: aliceblue;
+}
 
 .text-center{
   text-align: center;
@@ -295,10 +299,7 @@ textarea {
   background-color:  rgba(100,30,180,0.7);
 }
 
-h1{
-  text-align: center;
-  color: aliceblue;
-}
+
 
 #box3{
   /* position: relative; */
