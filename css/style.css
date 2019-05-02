@@ -20,28 +20,50 @@ html,body{
   /* background: url("../res/home.png") no-repeat center center; */
   background-color: white;
   background-size: cover;
-  width: 30%;
+  /* width: 30%; */
   height: 1200px;
   position: relative;
   top: 0px;
-  left: 37%;
+  left: 0px;
 }
 
 .home{
-  width:90%;
-  margin-top: 50px;
+  /* height: 50%; */
+  /* width:90%; */
+  margin-top: 70px;
   /* margin-bottom: 50px; */
-  position: relative;
-  top:0;
-  bottom:0
+  /* position: absolute;
+  top: 0;
+  left:0; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* .home2 {
+.home3 {
   position: absolute;
-  top:0;
-  bottom:0
-} */
+  top:10px;
+  right:0;
+}
 
+.home-h3{
+  /* text-align: left; */
+  width: auto;
+  /* margin: 0 auto; */
+  padding-left: 5%;
+  padding-right: 5%;
+  color: rgb(83, 83, 179);
+}
+
+.home-p1{
+  /* text-align: left; */
+  width: auto;
+  height: 100px;
+  /* margin: 0 auto; */
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
 
 #faculty {
   /* background: url("../res/ballet3.jpg") center; */
