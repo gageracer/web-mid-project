@@ -35,17 +35,3 @@
     #pad1-head{
     width: 30%;
     }
-    
-    .head{
-    text-align: center;
-    font-size: 2em;
-    font-family: 'Dancing Script', cursive;
-    position: relative;
-    }
-    
-    .text{
-    text-align: center;
-    font-size: 1em;
-    color: white;
-    font-family: 'EB Garamond', serif;
-    }

@@ -68,3 +68,17 @@ li:hover{
   color: pink;
 }
 
+.head{
+  color: gold;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  }
+  
+  .text{
+  text-align: center;
+  font-size: 1em;
+  color: #675499;
+  font-family: 'EB Garamond', serif;
+  }
