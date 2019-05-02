@@ -1,4 +1,6 @@
 #faculty {
+    display: flex;
+    flex-direction: column;
     background: url("../res/ballet3.jpg") center;
     background-size: cover;
     background-color: rgba(241, 158, 241, 0.486);
@@ -7,29 +9,43 @@
     position: relative;
     top: 0px;
     left: 0px;
-}
-#pad1{
+    }
+    #pad1{
     display: flex;
     justify-content: space-between;
-}
-
-#pad1,#pad2{
+    }
+    
+    #pad1,#pad2{
     margin-right: 18%;
-}
-#pad3{
+    }
+    #pad3{
     display: flex;
     flex-wrap: wrap;
-}
-
-#pad4{
+    }
+    
+    #pad4{
     display: flex;
     justify-content: space-around;
-}
-
-#image{
+    }
+    
+    #image{
     height: auto;
-}
-
-#pad1-head{
+    }
+    
+    #pad1-head{
     width: 30%;
-}
+    }
+    
+    .head{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    }
+    
+    .text{
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    }
