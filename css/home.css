@@ -133,3 +133,37 @@ body {
     top: 730px;
     left: 420px;
   }
+
+
+  .home-p2{
+    background-color: rgb(219, 217, 245);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 850px;
+    left: 30px;
+    /* text-align: left; */
+    width: 300px;
+    height: 233px;
+    /* margin: 0 auto; */
+    padding-left: 3%;
+    padding-right: 3%;
+    /* padding-bottom: 5%; */
+  }
+
+  .movie1{
+    position: absolute;
+    top: 850px;
+    left: 500px;
+        /* text-align: left; */
+        width: 600px;
+        height: 450px;
+        /* margin: 0 auto; */
+        padding-left: 3%;
+        padding-right: 3%;
+        /* padding-bottom: 5%; */
+
+        
+            background-image: url(https://i.ytimg.com/vi_webp/hWvJZFvtx3o/maxresdefault.webp);
+        
+  }
