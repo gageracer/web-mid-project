@@ -47,7 +47,7 @@
     margin-bottom: 50px;
     margin-right: 50px;
     margin-top: 0px;
-    overflow: scroll;
+    overflow: hidden;
     position: relative;
 }
 #sec_text{
@@ -58,7 +58,7 @@
     margin-bottom: 50px;
     margin-right: 50px;
     margin-top: 0px;
-    overflow: scroll;
+    overflow: hidden;
     position: absolute;
     height: 448px;
 }
