@@ -1,5 +1,8 @@
+  /* *{
+    border: 1px solid red;
+  } */
 body {
-  margin: 0px;
+  margin: 0;
 }
 html,body{
   scroll-behavior: smooth;
