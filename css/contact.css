@@ -1,6 +1,11 @@
+*{
+  border: 1px solid red;
+}
+
 .bg01{
   background-image: url("../res/ballet-dancer.jpg");
 }
+
 
 .fixed-bg{
   background-attachment: fixed;
@@ -20,31 +25,27 @@
   left: 0px;
 }
 
-.contact-title {
-  text-align: center;
-  color: aliceblue;
-}
-
-.text-center{
-  text-align: center;
-  color: rgba(255,255,255,1);
-
-}
-
 fieldset {
   border: 2px solid white;
   padding: 1rem;
   margin-left: 330px;
   margin-right: 330px;
-  background-color: rgba(100,30,180,0.7);
+  /* background-color: rgba(100,30,180,0.7); */
 }
 
 .con-legend {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 4em;
   color:rgba(255,255,255,1);
+}
+
+.con-p1{
+  color:rgba(255,255,255,1);
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 3%;
 }
 
 .form-label{
@@ -60,7 +61,7 @@ textarea, input {
 }
 
 textarea:focus, input[type="name"]:focus, input[type="email"]:focus, input[type="subject"]:focus {
-  border: 3px solid #000;
+  border: 2px solid #000;
   background-color: white;
 }
 
@@ -71,9 +72,10 @@ textarea {
 .form-flex {
   display: flex;
 }
-.form .form-flex {
+.con-form .form-flex {
   align-items: flex-end;
   justify-content: center;
+  padding-bottom: 20%;
 }
 
 .form-group {
@@ -86,10 +88,21 @@ textarea {
   margin-bottom: .5em;
 }
 
-.form-buttoms{
+
+/* ------button----- */
+/* .form-buttons{
   position: fixed;
+} */
+
+.con-submit-button{
+  width: 100%;
 }
 
+/* .con-reset-button{
+  width: 100%;
+} */
+
+/* ------u can find us at---- */
 .scroll-bg{
   background-color:  rgba(100,30,180,0.7);
 }
