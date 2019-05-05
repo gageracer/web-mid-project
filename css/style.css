@@ -64,9 +64,9 @@ li {
   text-decoration: none;
   color: rgb(248, 238, 223);
 }
-li {
-  /* margin-right: 20px; */
-}
+/* li {
+  margin-right: 20px;
+} */
 li:hover{
   color: pink;
 }
