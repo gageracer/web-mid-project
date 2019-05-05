@@ -15,6 +15,7 @@ html,body{
   position: relative;
   top: 0px;
   left: 0px;
+  background-color:#EFDFDF;
 }
 #second {
   background: url("ancient-1226277_1920.jpg") center;
