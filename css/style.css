@@ -71,7 +71,7 @@ li {
 li:hover{
   color: pink;
   font-size: 5rem;
-  transition: 100ms;
+  transition: 150ms ease-in;
 }
 
 .head{
