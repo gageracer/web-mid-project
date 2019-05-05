@@ -149,25 +149,28 @@
                 <div class="form-flex">
                     <div class="form-content">
                         <div class="form-group ">
-                            <label for="name" class="form-label">Name*</label>
-                            <input type="name" id="name" placeholder="Your name" required>
+                            <label for="name" class="form-label">Name<span class="required">*</span></label>
+                            <input type="name" class="input-form" id="name" placeholder="Your name" required>
                         </div>
                         <div class="form-group ">
-                            <label for="email" class="form-label">Email*</label>
-                            <input type="email" id="email" placeholder="Your email address" required>
+                            <label for="email" class="form-label">Email<span class="required">*</span></label>
+                            <input type="email" class="input-form" id="email" placeholder="Your email address" required>
                         </div>
                         <div class="form-group ">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="subject" id="subject" placeholder="Any questions">
+                            <label for="subject" class="form-label">Subject </label>
+                            <input type="subject" class="input-form" id="subject" placeholder="Any questions">
                         </div>
                         <div class="form-group">
-                            <label for="message" class="form-label">Message*</label>
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Comment here!" required></textarea>
+                            <label for="message" class="form-label">Message<span class="required">*</span></label>
+                            <textarea name="message" class="input-form" id="message" maxlength="300" cols="30" rows="10" placeholder="Comment here!" required></textarea>
                         </div>
                     </div>
-                    <div class="form-buttons">
+                    <br>
+
+                    <!-- ------ button from here----- -->
+                    <div class="form-button">
                         <div class="form-group">
-                            <input type="submit" value="SUBMIT" class="con-submit-button">
+                            <input type="submit" name="submit" value="SUBMIT" id="con-submit-button">
                         </div>
                         <!-- <div class="form-group">
                             <input type="reset" value="RESET" class="con-reset-button">
@@ -179,43 +182,44 @@
         <br>
         <br>
         <!-- ----you can find us at---- -->
-        <div class="scroll-bg">
-            <div class="scroll-bg-content">
-                <h1 id="sec-title">You can find us at</h1>
-                <div id="box3">
-                    <div class="gmap">
-                        <iframe class="iframe-gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5807.103436830388!2d-123.07878613252902!3d49.31228480831052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486704c5f96fb79%3A0xa009431ed5f63151!2s106+W+1st+St%2C+North+Vancouver%2C+BC+V7M+2E7!5e0!3m2!1sen!2sca!4v1556581964014!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-                        </iframe>
-                    </div>
-                    <p class="detail">West 1st Street and Lonsdale Ave.
+        <div class="scroll">
+            <ul id="box1">
+                <li class="gmap">
+                    <iframe class="iframe-gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5807.103436830388!2d-123.07878613252902!3d49.31228480831052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486704c5f96fb79%3A0xa009431ed5f63151!2s106+W+1st+St%2C+North+Vancouver%2C+BC+V7M+2E7!5e0!3m2!1sen!2sca!4v1556581964014!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </li>
+                <li class="contact-p1">
+                    <div class="box2">
+                        <h1 class="u-find">You can find us at</h1>
+                        <p class="detail">West 1st Street and Lonsdale Ave.
                         Opposite Waves Coffee Shop and next to Buddha-Full,
-                    the glass door and up the stairs to the 3rd floor.>
-                    We are located two blocks up from the Sea Bus at Lonsdale Quay - a two minute walk
-                    You can contact us by<a href="mailto:info@balletbloch.com">info@balletbloch.com</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- -------footer---- -->
-    <footer>
-        <div class="footer">
-            <ul>
-                <li class="item">
-                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5807.103436830388!2d-123.07878613252902!3d49.31228480831052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486704c5f96fb79%3A0xa009431ed5f63151!2s106+W+1st+St%2C+North+Vancouver%2C+BC+V7M+2E7!5e0!3m2!1sen!2sca!4v1556581964014!5m2!1sen!2sca">Floor 106 West 1st Street
-                        North Vancouver
-                        BC V7M 1A9
-                        CANADA</a>
-                </li>
-                <li class="item">
-                    BALLET BLOCH CANADA
-                    Director: Tracy-Lea Bloch
-                </li>
-                <li class="item">
-                    <a href="mailto:info@balletbloch.com">info@balletbloch.com</a>
+                        the glass door and up the stairs to the 3rd floor.>
+                        We are located two blocks up from the Sea Bus at Lonsdale Quay - a two minute walk
+                        You can contact us by <a href="mailto:info@balletbloch.com" class="info-mail">info@balletbloch.com</a></p>
+                    </div>
                 </li>
             </ul>
         </div>
-    </footer>
+        <!-- -------footer---- -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-inner">
+                    <ul class="footer-nav">
+                        <li class="item">
+                            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5807.103436830388!2d-123.07878613252902!3d49.31228480831052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486704c5f96fb79%3A0xa009431ed5f63151!2s106+W+1st+St%2C+North+Vancouver%2C+BC+V7M+2E7!5e0!3m2!1sen!2sca!4v1556581964014!5m2!1sen!2sca">Floor 106 West 1st Street North Vancouver BC V7M 1A9 CANADA</a>
+                        </li>
+                        <!-- <li class="item">
+                        BALLET BLOCH CANADA
+                        Director: Tracy-Lea Bloch
+                    </li> -->
+                        <li class="item">
+                            <a href="mailto:info@balletbloch.com" class="info-mail"> info@balletbloch.com </a>
+                        </li>
+                    </ul>
+                    <p class="footer-copyright">&copy; Ballet Bloch Canada 2016</p>
+                </div>
+            </div>
+        </footer>
+    </div>
     <!-- -------contact. wite code above here ---------->
 </body>
