@@ -137,15 +137,15 @@ textarea {
   font-weight: bold;
   border-radius: 5px ;
   width: 70%;
-  background: linear-gradient(0deg, skyblue, #b6d6f7);
+  background: linear-gradient(0deg, blue, #b6d6f7);
   color: white;
 }
 
-input[type="submit"]:hover{
+#con-submit-button:hover{
   background: linear-gradient(0deg, skyblue, #d2e4f7);
 }
 
-input[type="submit"]:active{
+#con-submit-button:active{
   background: linear-gradient(0deg, skyblue, #b6d6f7);
 }
 /* .con-reset-button{
