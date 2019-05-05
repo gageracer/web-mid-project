@@ -1,3 +1,4 @@
+/* 20:17 4th May. */
 body {
     margin: 0;
   }
@@ -11,7 +12,7 @@ body {
   } */
   
   #home {
-    /* background: url("../res/home.png") no-repeat center center; */
+    /* background: url("../res/home1.png") no-repeat center center; */
     background-color: white;
     background-size: cover;
     /* width: 30%; */
@@ -31,7 +32,7 @@ body {
   .home{
     /* height: 50%; */
     /* width:90%; */
-    margin-top: 95px;
+    margin-top: 60px;
     /* margin-bottom: 50px; */
     /* position: absolute;
     top: 0;
@@ -43,7 +44,6 @@ body {
   
   .home1{
     margin-top: 70px;
-
     position: absolute;
     top:-380px;
     left:350px;
@@ -60,9 +60,9 @@ body {
   }
   
   .home-h31{
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-    position: absolute;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+        position: absolute;
     top:85px;
     left:0;
     /* text-align: left; */
@@ -74,9 +74,9 @@ body {
   }
 
   .home-h32{
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-    position: absolute;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+        position: absolute;
     top:128px;
     left:70px;
     /* text-align: left; */
@@ -88,8 +88,8 @@ body {
   }
 
   .home-h33{
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
     position: absolute;
     top:171px;
     left:150px;
@@ -104,66 +104,242 @@ body {
   .home-p1{
     background-color: rgb(219, 217, 245);
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
     position: absolute;
     top: 260px;
     left: 30px;
     /* text-align: left; */
     width: 350px;
-    height: 233px;
+    height: 238px;
     /* margin: 0 auto; */
+    padding-top: 1%;
     padding-left: 3%;
     /* padding-right: 5%; */
     /* padding-bottom: 5%; */
-    box-shadow: 30px 200px 0px 5px rgba(57, 39, 100, 0.212);
+    box-shadow: 30px 160px 0px 5px rgba(57, 39, 100, 0.212);
   }
 
-  .home-p1:first-letter{
+  /* .home-p1:first-letter{
     font-size: 28px;
-  }
+  } */
 
   #fb {
     position: absolute;
-    top: 730px;
+    top: 700px;
     left: 390px;
   }
 
   #insta {
     position: absolute;
-    top: 730px;
+    top: 700px;
     left: 420px;
   }
 
 
-  .home-p2{
+  /* .home-p2{
     background-color: rgb(219, 217, 245);
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 800px;
+    left: 0;
+    width: 400px;
+    height: 233px;
+    padding-left: 3%;
+    padding-right: 3%;
+  } */
+
+  .home-p3{
+    background-color: rgb(182, 177, 250);
+    color: black;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 790px;
+    left: 30px;
+    /* text-align: left; */
+    width: 350px;
+    height: 30px;
+    /* margin: 0 auto; */
+    padding-left: 1%;
+    padding-right: 1%;
+    /* padding-bottom: 5%; */
+  }
+
+  .home-p21{
+    background-color: rgb(219, 217, 245);
+    color: black;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 820px;
+    left: 30px;
+    /* text-align: left; */
+    width: 350px;
+    height: 90px;
+    /* margin: 0 auto; */
+    padding-left: 2%;
+    padding-right: 0;
+    /* padding-bottom: 5%; */
+  }
+  .home-p31{
+    /* background-color: rgb(219, 217, 245); */
+    color: black;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
     position: absolute;
     top: 850px;
     left: 30px;
     /* text-align: left; */
-    width: 300px;
-    height: 233px;
+    width: 350px;
+    height: 30px;
     /* margin: 0 auto; */
     padding-left: 3%;
-    padding-right: 3%;
+    padding-right: 1%;
     /* padding-bottom: 5%; */
+  }
+  .home-p22{
+    /* background-color: rgb(219, 217, 245); */
+    color: black;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 880px;
+    left: 30px;
+    /* text-align: left; */
+    width: 350px;
+    height: 30px;
+    /* margin: 0 auto; */
+    padding-left: 2%;
+    padding-right: 1%;
+    /* padding-bottom: 5%; */
+  }
+  .home-p32{
+    background-color: rgb(182, 177, 250);
+    color: black;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 910px;
+    left: 30px;
+    /* text-align: left; */
+    width: 350px;
+    height: 30px;
+    /* margin: 0 auto; */
+    padding-left: 1%;
+    padding-right: 1%;
+    /* padding-bottom: 5%; */
+  }
+  .home-p23{
+    background-color: rgb(219, 217, 245);
+    color: black;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 940px;
+    left: 30px;
+    /* text-align: left; */
+    width: 350px;
+    height: 120px;
+    /* margin: 0 auto; */
+    padding-left: 2%;
+    padding-right: 0%;
+    /* padding-bottom: 5%; */
+  }
+  .home-p33{
+    background-color: rgb(182, 177, 250);
+    color: black;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 1020px;
+    left: 30px;
+    /* text-align: left; */
+    width: 350px;
+    height: 30px;
+    /* margin: 0 auto; */
+    padding-left: 1%;
+    padding-right: 1%;
+    /* padding-bottom: 5%; */
+  }
+  .home-p24{
+    background-color: rgb(219, 217, 245);
+    color: black;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 1050px;
+    left: 30px;
+    /* text-align: left; */
+    width: 350px;
+    height: 130px;
+    /* margin: 0 auto; */
+    padding-left: 2%;
+    padding-right: 0%;
+    /* padding-bottom: 5%; */
+  }
+
+  .home-p25{
+    /* background-color: rgb(219, 217, 245); */
+    color: black;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 1075px;
+    left: 30px;
+    /* text-align: left; */
+    width: 350px;
+    height: 130px;
+    /* margin: 0 auto; */
+    padding-left: 3%;
+    padding-right: 0%;
+    /* padding-bottom: 5%; */
+  }
+
+
+
+
+
+
+
+  .home-h34{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    position: absolute;
+    top: 760px;
+    left: 470px;
+  }
+
+  .home-p4{
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 825px;
+    left: 470px;
   }
 
   .movie1{
     position: absolute;
-    top: 850px;
-    left: 500px;
-        /* text-align: left; */
-        width: 600px;
-        height: 450px;
-        /* margin: 0 auto; */
-        padding-left: 3%;
-        padding-right: 3%;
-        /* padding-bottom: 5%; */
+    top: 870px;
+    left: 470px;
+  }
 
-        
-            background-image: url(https://i.ytimg.com/vi_webp/hWvJZFvtx3o/maxresdefault.webp);
-        
+  .home-h35{
+    font-size: 26px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 760px;
+    left: 950px;
+  }
+
+  .home-p5{
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    top: 825px;
+    left: 950px;
+  }
+
+  .movie2{
+    position: absolute;
+    top: 870px;
+    left: 950px;
   }
