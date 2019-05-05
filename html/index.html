@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>BALLET BLOCH CANADA</title>
+    <title >BALLET BLOCH CANADA</title>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -17,7 +17,7 @@
 
 <body>
     
-    <div id="home">
+    <div id="home" style="background-color:EFDFDF;">
             <img class="name" src="../res/name.png" alt="name">
 
             <img class="home3" src="../res/home3.jpg" width="7%;" height="7%" alt="home3"> 
@@ -36,9 +36,9 @@
 
             
             
-            <h3 class="home-h31">Classical Ballet</h3>
-            <h3 class="home-h32">& Contemporary</h3>
-            <h3 class="home-h33">Training School</h3>
+            <h3 class="home-h31" style="font-family: 'Dancing Script', cursive; color: gold;">Classical Ballet</h3>
+            <h3 class="home-h32 head" style="font-family: 'Dancing Script', cursive; color: gold;">& Contemporary</h3>
+            <h3 class="home-h33 head" style="font-family: 'Dancing Script', cursive; color: gold;">Training School</h3>
 
             <div class="home-p1">We offer classical ballet and contemporary training together with Gyrotonic® and Pilates body conditioning specialized for dancers.  Programs are available from Pre-Ballet to Post-Graduate (ages 3-22yrs).  Students experience a unique opportunity similar to a professional ballet company where classical full-length ballets are reimagined and performed. World-renowned choreographers are commissioned to create these works and the collaboration with professional artists and students is developed.  Our Repertoire includes: Paquita, Swan Lake, Les Sylphides, A Midsummer Night's Dream, Giselle, The Nutcracker and Romeo&Juliet.</div>
 
@@ -82,7 +82,7 @@
                 <li>Gallery</li>
             </a>
             <a href="#training">
-                <li>About</li>
+                <li>Training</li>
             </a>
             <a href="#contact">
                 <li>Contact</li>
@@ -147,17 +147,17 @@
             <footer class="head" style="font-size:30px;"><small>&copy; Ballet Bloch Canada 2016</small></footer>
         </div>
     </div>
-    <div id="training">
-        <header id="header_t">
-            <h1 id="title_t">Training</h1>
-        </header>
+    <div id="training" style="background-color:#EFDFDF;"> <!-- start here -->
         <main class="main_t">
+            <h1 id="title_t" class="head">Training</h1>
             <div id="content_t">
-                <div class="fst_block"></div>
+                <!-- <div class="fst_block"></div> -->
+                <div id="photo1">
                 <img src="../res/ballet-class-ballet-dancer-ballet-shoes-1820143.jpg" alt="">
-                <div id="p1_div">
-                    <p id="p1">
-                    <strong>Professional Training and Post Graduate Program</strong><br>
+                </div>
+                <div id="fst_text" class="text">
+                    <!-- <p id="p1"> -->
+                    <strong class="head">Professional Training and Post Graduate Program</strong><br>
                     The Professional Training and Post Graduate Program is for the serious/full-time dancer aged 10 to 22 who is training to improve technical ability and artistic performance.
                     This program offers young dancers  the opportunity to showcase themselves as part of a Corps de Ballet  and as a Soloist. An audition is required to evaluate physical,
                     mental and emotional attributes needed for classical ballet together with a healthly medical history.
@@ -166,40 +166,40 @@
                     the teaching and guidance of the program in order to maintain its integrity.
 
                     This intense training program prepares boys and girls for a professional career in dance.<br><br>
-                    <strong>Foundation Training Program</strong>
+                    <strong class="head">Foundation Training Program</strong><br>
                     The Foundation Training Program is for the amateur/part-time dancer aged 7-12yrs who loves to dance and  wants to work on poise, posture, and discipline together with technique,
                     musicality, and artistry. A minimum of twice a week is required and students (if ready) are encouraged to enter an ISTD ballet exam each year.
                     This program is designed to train young boys and girls to a higher level of ability,
                     offering them the opportunity to audition for the Professional Training Program.
                     Foundation students will participate in the year-end presentation on stage.</p>
-                </div>
-                <div class="p2_div">
-                    <!-- ballerinas-ballet-class-ballet-dancers-1638734 .jpg -->
-                    <img src="../res/ballerinas-ballet-class-ballet-dancers-1638734 .jpg" alt="" id="img2">
-                    <p id="p2"><strong>ISTD Imperial Classical Ballet</strong>
+                </div></div>
+        <div id="content_t2">    
+                    <div id="sec_text" class="text">
+                    <p id="p2"><strong class="head">ISTD Imperial Classical Ballet</strong><br>
                         The roots of Imperial Classical Ballet stem from the early days of the ISTD and the first written syllabus in 1913 which was based on
                         the teaching of the French School from the Paris Opéra. The syllabus has now evolved to promote the English classical style and addresses
                         the changing needs of Ballet dancers today. Students in both the Professional and Foundation training programs are encouraged to take an examination once a year.
                         ISTD Graded & Vocational exams are recognized internationally and acknowledged by the BC Ministry of Education, with Vocational certification awarding school credits.
                         <br><br>
-                        <strong>Pre-Ballet Program</strong>
+                        <strong class="head">Pre-Ballet Program</strong><br>
                         Children aged 3-6yrs attend classes once or twice a week.  Our young ballerina program encourages age appropriate creativity, musicality, and physicality.
                         Children gain confidence, poise, and a solid frame work on which to build classical ballet technique.
                         The program offers boys and girls the opportunity to present informal in-house performances for their parents each term.
                         </p>
+                    </div>
+                <div id="photo2">
+                    <img src="../res/ballerinas-ballet-class-ballet-dancers-1638734 .jpg" alt="" id="img2">
                 </div>
-
-
             </div>
         </main>
-    </div>
-    <div id="contact" class="fixed-bg bg01">
+    </div>      <!-- end here -->
+    <div id="contact" class="fixed-bg bg01" style="background-color:#EFDFDF;">
         <header class="header-contact">
-            <div class="text-center">
+            <div class="text-center head">
                 <h1>CONTACT</h1>
             </div>
         </header>
-        <form class="form" method="get" action="info@balletbloch.com">
+        <form class="form head" method="get" action="info@balletbloch.com">
             <fieldset>
                 <legend>Contact Form</legend>
                 <div class="form-flex">
@@ -233,14 +233,14 @@
             </fieldset>
         </form>
         <div class="scroll-bg">
-            <div class="scroll-bg-content">
+            <div class="scroll-bg-content head">
                 <h1>You can find us at</h1>
                 <div id="box3">
                     <div class="gmap">
                         <iframe class="iframe-gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5807.103436830388!2d-123.07878613252902!3d49.31228480831052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486704c5f96fb79%3A0xa009431ed5f63151!2s106+W+1st+St%2C+North+Vancouver%2C+BC+V7M+2E7!5e0!3m2!1sen!2sca!4v1556581964014!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
                         </iframe>
                     </div>
-                    <p class="detail">West 1st Street and Lonsdale Ave.
+                    <p class="detail head">West 1st Street and Lonsdale Ave.
                         Opposite Waves Coffee Shop and next to Buddha-Full,
                     the glass door and up the stairs to the 3rd floor.>
                     We are located two blocks up from the Sea Bus at Lonsdale Quay - a two minute walk
