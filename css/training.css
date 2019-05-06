@@ -2,6 +2,11 @@
     display: flex;
     justify-content: flex-start;
     background-color: #FFFFF3;
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 .main_t{
     width: 75%;
