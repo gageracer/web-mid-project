@@ -63,7 +63,7 @@ a,
 li {
   display: inline;
   text-decoration: none;
-  color: rgb(172, 127, 6);
+  color: gold;
 }
 /* li {
   margin-right: 20px;
@@ -76,15 +76,15 @@ li {
 
 .head{
   color: gold;
-  text-align: center;
-  font-size: 2em;
   font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 36px;
   position: relative;
   }
   
   .text{
   text-align: center;
-  font-size: 1em;
-  color: lightsalmon;
+  font-size: 18px;
+  color: rgb(243, 143, 103);
   font-family: 'EB Garamond', serif;
   }
