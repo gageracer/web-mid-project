@@ -115,7 +115,7 @@
     font-size: 28px;
   } */
 
-  #fb {
+  /* #fb {
     position: absolute;
     top: 700px;
     left: 390px;
@@ -125,7 +125,7 @@
     position: absolute;
     top: 700px;
     left: 420px;
-  }
+  } */
 
 
   /* .home-p2{
@@ -287,51 +287,50 @@
     padding-right: 0%;
     /* padding-bottom: 5%; */
   }
-
-
-
-
-
-
-
+#home-info-box{
+  position: relative;
+  margin-left: 3%;
+  margin-top: -10%;
+}
+#menu-icons{
+  position: relative;
+  left: 80%;
+  top: 5%;
+  
+}
   .home-h34{
     font-family: 'Dancing Script', cursive;
     font-size: 26px;
     position: absolute;
-    top: 760px;
-    left: 470px;
+    
   }
 
   .home-p4{
-    font-family: 'EB Garamond', serif;
     position: absolute;
-    top: 825px;
-    left: 470px;
+    margin-top: -52px;
   }
 
   .movie1{
     position: absolute;
-    top: 870px;
-    left: 470px;
+    top: 20%;
+    left: 40%;
   }
 
   .home-h35{
     font-size: 26px;
     font-family: 'Dancing Script', cursive;
     position: absolute;
-    top: 760px;
-    left: 950px;
+
   }
 
   .home-p5{
-    font-family: 'EB Garamond', serif;
+
     position: absolute;
-    top: 825px;
-    left: 950px;
+    margin-top: -52px;
   }
 
   .movie2{
     position: absolute;
-    top: 870px;
-    left: 950px;
+    top: 50%;
+    left: 40%;
   }
