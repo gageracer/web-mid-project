@@ -21,6 +21,7 @@
     #pad3{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10%;
     }
     
     #pad4{
