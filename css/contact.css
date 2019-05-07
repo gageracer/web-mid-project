@@ -1,6 +1,6 @@
-*{
+/* *{
   border: 1px solid red;
-}
+} */
 
 #contact {
   background-image: url("../res/ballet-dancer.jpg");
@@ -13,19 +13,31 @@
   padding-bottom: 120px;/*←footer-height*/
 }
 
-.inline-block-contact{
-display: inline-block;
-width: 400px;
-padding: 20px;
-vertical-align: top;
+.gmap{
+  position: absolute;
+  top: 45px;
+  left: 100px;
+}
+.iframe-gmap{
+  height: 350px;
+  width: 450px;
 }
 
+.contact-form{
+  position: absolute;
+  top: 20px;
+  right: 320px;
+}
+.con-form{
+  position: relative;
+  width: 400px;
+  height: 500px;
+}
 fieldset {
   border: 2px solid white;
-  padding: 1rem;
-  /* margin-left: 330px;
-  margin-right: 330px; */
   background-color: rgba(100,30,180,0.3);
+  width: 600px;
+  height: 600px;
 }
 
 .con-legend {
@@ -35,22 +47,18 @@ fieldset {
   font-size: 4em;
 }
 
-.con-p1{
+.con-text{
   text-align: center;
-  font-size: 30px;
-  /* margin-bottom: 5%; */
+  font-size: 1em;
+  position: relative;
 }
 
 .form-label{
   color: white;
   text-transform: uppercase;
-  padding: 15px 10px;
-  text-align: left;
-}
-
-textarea, input {
-  border: 1px solid black;
-  outline: none;
+  position: relative;
+  display: inline;
+  vertical-align: top;
 }
 
 textarea:focus, input[type="name"]:focus, input[type="email"]:focus, input[type="subject"]:focus {
@@ -58,35 +66,17 @@ textarea:focus, input[type="name"]:focus, input[type="email"]:focus, input[type=
   background-color: #e2ecf6;
 }
 
-.con-form .form-flex {
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.form-group {
-  margin-bottom: 1em;
-}
-
-#name, #email, #subject{
-  height: 40px;
-  width: 95%;
+#name, #email, #subject, #message{
+  height: 30px;
+  width: 60%;
   border-radius: 5px !important;
-  margin-right:20px;
   text-align: left;
-  font-size: 15px !important;
+  position: relative;
 }
-
 #message{
-  width: 95%;
-  border-radius: 5px !important;
-  text-align: left;
-  font-size: 30px !important;
-  height: 150px;
+  height: 100px;
 }
 
-
-
-/* ------button----- */
 #con-submit-button{
   font-size: 21px ;
   padding: 15px 10px;
@@ -97,52 +87,21 @@ textarea:focus, input[type="name"]:focus, input[type="email"]:focus, input[type=
   color: white;
   text-align: center;
 }
-
 #con-submit-button:hover{
   background: linear-gradient(0deg, skyblue, #d2e4f7);
 }
-
 #con-submit-button:active{
   background: linear-gradient(0deg, skyblue, #b6d6f7);
 }
 
-/* ------u can find us at---- */
-#box1{
-  display: flex;
-  margin: 10px 0;
-  width: 100%;
-  justify-content: space-between;
-}
-
-
-
 .contact-p1{
-  background-color:  rgba(100,30,180,0.4);
-  /* padding-top: 100px;
-  padding-right: -400px;
-  padding-left: -400px;
-  padding-top: 5px; */
-  margin: 50px;
-  margin-right: 250px;
-  height: 400px;
-  padding-left: -500px;
-  overflow: hidden;
-  float: left;
+  position: absolute;
+  bottom: 470px;
+  left: 100px;
+  width: 450px;
+  height: 40px;
 }
-
-.box2{
-  padding-bottom: 200px;
-  margin: 30px;
-}
-
-.u-find{
-  font-size: 3em;
-}
-
 .datail{
-  /* text-align: left; */
-  /* width: 100%;
-  height: 100%; */
   text-align: center;
   font-size: 2em;
 }
@@ -150,30 +109,21 @@ textarea:focus, input[type="name"]:focus, input[type="email"]:focus, input[type=
 /* ---footer--- */
 .footer-container{
   text-align: center;
-  background-color:  rgba(100,30,180,0.8);
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
+  background-color:  rgba(255, 255, 255,0.8);
   width: 100%;
   color: #fff;
-  padding: 20px 15px 10px 15px;
-  position: absolute;/*←絶対位置*/
-  bottom: 0; /*下に固定*/
+  padding: 10px 15px 10px 15px;
+  position: absolute;
+  bottom: 0;
 }
-
 .footer-nav li{
   display: inline;
   padding: 0 1rem 0 0;
 }
-
 .info-mail:hover{
-  color: white
+  color: pink;
 }
-
 .item {
   display: inline-block;
   vertical-align: middle;
-}
-
-.footer-copyright{
-  font-size: small;
 }
