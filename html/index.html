@@ -205,74 +205,16 @@
 
     <!-- ------contact page---- -->
     <div id="contact">
-
-        <div class="gmap">
-            <iframe class="iframe-gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5807.103436830388!2d-123.07878613252902!3d49.31228480831052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486704c5f96fb79%3A0xa009431ed5f63151!2s106+W+1st+St%2C+North+Vancouver%2C+BC+V7M+2E7!5e0!3m2!1sen!2sca!4v1556581964014!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-            </iframe>
-        </div>
-        <div class="contact-form">
-            <form class="con-form" method="get" action="info@balletbloch.com">
-                <fieldset>
-                    <legend class="con-legend head">CONTACT US</legend>
-                    <p class="con-text" style="font-family: 'Dancing Script', cursive; color: gold; font-size: 30px;">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
-                    <div class="form-flex text">
-                        <div class="form-content">
-                            <div class="form-group ">
-                                <label for="name" class="form-label">Name*</label>
-                                <input type="name" class="input-form" id="name" placeholder="Your name" required>
-                            </div>
-                            <br>
-                            <div class="form-group ">
-                                <label for="email" class="form-label">Email*</label>
-                                <input type="email" class="input-form" id="email" placeholder="Your email address" required>
-                            </div>
-                            <br>
-                            <div class="form-group ">
-                                <label for="subject" class="form-label">Subject </label>
-                                <input type="subject" class="input-form" id="subject" placeholder="Any questions">
-                            </div>
-                            <br>
-                            <div class="form-group">
-                                <label for="message" class="form-label">Message*</label>
-                                <textarea name="message" class="input-form" id="message" maxlength="300" cols="30" rows="10" placeholder="Comment here!" required></textarea>
-                            </div>
-                        </div>
-                        <br>
-                        <!-- ------ button from here----- -->
-                        <div class="form-button">
-                            <div class="form-group">
-                                <input type="submit" name="submit" value="SUBMIT" id="con-submit-button">
-                            </div>
-                        </div>
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-        <div class="contact-p1">
-            <p class="detail" style="font-family: 'Dancing Script', cursive; color: gold; font-size: 30px;">West 1st Street and Lonsdale Ave.
-                        Opposite Waves Coffee Shop and next to Buddha-Full,
-                        the glass door and up the stairs to the 3rd floor.>
-                        We are located two blocks up from the Sea Bus at Lonsdale Quay - a two minute walk
-                        <br><a href="mailto:info@balletbloch.com" class="info-mail">info@balletbloch.com</a>
-                    </p>
-        </div>
-        <!-- -------footer---- -->
-        <footer>
-            <div class="footer-container" `>
-                <div class="footer-inner">
-                    <ul class="footer-nav">
-                        <li class="item head">
-                            Floor 106 West 1st Street North Vancouver BC V7M 1A9 CANADA
-                        </li>
-                        <li class="item head">
-                            <a href="mailto:info@balletbloch.com" class="info-mail"> info@balletbloch.com </a>
-                        </li>
-                    </ul>
-                    <p class="footer-copyright head">&copy; Ballet Bloch Canada 2019</p>
-                </div>
-            </div>
-        </footer>
+        <form action="get" class="form-contact">
+            <fieldset>
+                <label for="name" class="form1">Name*</label>
+                <input type="text" name="name" required><br>
+                <label for="email" class="form1">Email*</label>
+                <input type="email" name="email" required><br>
+                <label for="comment" class="form1">Comment*</label>
+                <input type="text" name="comment" col="3" row="10" required>
+            </fieldset>
+        </form>
     </div>
-    <!-- -------contact. wite code above here ---------->
 </body>
 </html>

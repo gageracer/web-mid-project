@@ -1,129 +1,20 @@
-/* *{
+*{
   border: 1px solid red;
-} */
-
+}
 #contact {
-  background-image: url("../res/ballet-dancer.jpg");
-  background-attachment: fixed;
-  position: relative;
-  background-position: center;
-  background-size: cover;
+  background-color: aliceblue;
+  height: 100%;
   width: 100%;
-  min-height: 100vh;
-  padding-bottom: 120px;/*←footer-height*/
-}
-
-.gmap{
   position: absolute;
-  top: 45px;
-  left: 100px;
 }
-.iframe-gmap{
-  height: 350px;
-  width: 450px;
+.form-contact{
+  width: 300px;
+  height: 300px;
 }
-
-.contact-form{
-  position: absolute;
-  top: 20px;
-  right: 320px;
-}
-.con-form{
-  position: relative;
-  width: 400px;
-  height: 500px;
-}
-fieldset {
-  border: 2px solid white;
-  background-color: rgba(100,30,180,0.3);
-  width: 600px;
-  height: 600px;
-}
-
-.con-legend {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 4em;
-}
-
-.con-text{
-  text-align: center;
-  font-size: 1em;
-  position: relative;
-}
-
-.form-label{
-  color: white;
-  text-transform: uppercase;
-  position: relative;
-  display: inline;
-  vertical-align: top;
-}
-
-textarea:focus, input[type="name"]:focus, input[type="email"]:focus, input[type="subject"]:focus {
-  border: 2px solid blue;
-  background-color: #e2ecf6;
-}
-
-#name, #email, #subject, #message{
-  height: 30px;
-  width: 60%;
-  border-radius: 5px !important;
-  text-align: left;
-  position: relative;
-}
-#message{
-  height: 100px;
-}
-
-#con-submit-button{
-  font-size: 21px ;
-  padding: 15px 10px;
-  font-weight: bold;
-  border-radius: 5px ;
-  width: 70%;
-  background: linear-gradient(0deg, blue, #b6d6f7);
-  color: white;
-  text-align: center;
-}
-#con-submit-button:hover{
-  background: linear-gradient(0deg, skyblue, #d2e4f7);
-}
-#con-submit-button:active{
-  background: linear-gradient(0deg, skyblue, #b6d6f7);
-}
-
-.contact-p1{
-  position: absolute;
-  bottom: 470px;
-  left: 100px;
-  width: 450px;
-  height: 40px;
-}
-.datail{
-  text-align: center;
-  font-size: 2em;
-}
-
-/* ---footer--- */
-.footer-container{
-  text-align: center;
-  background-color:  rgba(255, 255, 255,0.8);
+fieldset{
   width: 100%;
-  color: #fff;
-  padding: 10px 15px 10px 15px;
-  position: absolute;
-  bottom: 0;
+  height: 100%;
 }
-.footer-nav li{
-  display: inline;
-  padding: 0 1rem 0 0;
-}
-.info-mail:hover{
-  color: pink;
-}
-.item {
-  display: inline-block;
-  vertical-align: middle;
+.form1{
+margin: 50px;
 }
