@@ -10,10 +10,10 @@
 }
 .main_t{
     width: 75%;
-    margin-left:260px;
+    
 }
 #title_t{
-  
+    text-align: center;
     position: relative;
     margin-left: 0px;
 }
@@ -68,7 +68,4 @@
     overflow: hidden;
     position: absolute;
     height: 448px;
-}
-#p2{
-    text-align: justify;
 }
