@@ -10,11 +10,12 @@
 }
 .main_t{
     width: 75%;
-    
+    margin-left:260px;
 }
 #title_t{
-    text-align: center;
+  
     position: relative;
+    margin-left: 0px;
 }
 /* rgb(75, 75, 75);
 
@@ -54,6 +55,7 @@
     margin-top: 0px;
     overflow: hidden;
     position: relative;
+    text-align: justify;
 }
 #sec_text{
     width: 700px;
@@ -66,4 +68,7 @@
     overflow: hidden;
     position: absolute;
     height: 448px;
+}
+#p2{
+    text-align: justify;
 }
