@@ -15,12 +15,14 @@
 #title_t{
     text-align: center;
     position: relative;
+    margin-left: 0px;
 }
-/* rgb(75, 75, 75);
-
-
-
-*/
+#p2{
+    text-align: justify;
+}
+.head{
+    text-align: center;
+}
 #content_t{
     margin-left:50px;
     display:flex;
@@ -54,6 +56,7 @@
     margin-top: 0px;
     overflow: hidden;
     position: relative;
+    text-align: justify;
 }
 #sec_text{
     width: 700px;
